@@ -10,9 +10,9 @@ I build AI-powered systems that actually ship — from WhatsApp automation platf
 
 | Project | Description | Stack |
 |---|---|---|
-| **[Whaply](https://github.com/Otitodev)** | Multi-tenant WhatsApp AI agent platform with human-AI collision detection, multi-LLM routing, and real-time webhook processing | FastAPI · Supabase · Evolution API · Claude / OpenAI |
+| **[Whaply](https://whaply.site)** | Multi-tenant WhatsApp AI agent platform with human-AI collision detection, multi-LLM routing, and real-time webhook processing | FastAPI · Supabase · Evolution API · Claude / OpenAI |
 | **[Addpost](https://addpost.site)** | Social media scheduling tool with AI caption generation for X and LinkedIn | FastAPI · Supabase · OpenAI |
-| **[StackSpy](https://github.com/Otitodev)** | Free tech stack detector — built to drive organic traffic and show off what I can ship | Python · FastAPI |
+
 
 ---
 

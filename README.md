@@ -12,8 +12,9 @@ integrations, deployment, and iteration based on real usage.
 
 | Project | Description | Stack |
 |---|---|---|
+| **[SESKit](https://github.com/Otitodev/seskit)** | Python-native developer email platform on Amazon SES — self-hosted alternative to Resend | FastAPI · Python SDK · ARQ · PostgreSQL · AWS SES |
 | **[Whaply](https://whaply.site)** | Multi-tenant WhatsApp AI agent platform with multi-LLM routing, real-time webhook processing, and per-tenant agent configuration | FastAPI · LangGraph · PostgreSQL · Claude · Evolution API |
-| **[LabLens MCP](https://lablens.up.railway.app)** | Production MCP server exposing four clinical AI tools to LLM agents — lab interpretation, critical value flagging, clinical summaries, differential diagnosis | FastAPI · MCP · Claude · OpenAI · Epic FHIR R4 |
+| **[LabLens MCP](https://github.com/Otitodev/lablens)** | Production MCP server exposing four clinical AI tools to LLM agents — lab interpretation, critical value flagging, clinical summaries, differential diagnosis | FastAPI · MCP · Claude · OpenAI · Epic FHIR R4 |
 | **[ClaimGuard](https://claimguard-alpha.vercel.app)** | AI denial management SaaS for medical practices — LangGraph pipeline processing insurance EOBs and generating appeal letters | FastAPI · LangGraph · AWS Aurora · Next.js · Terraform |
 | **[Addpost](https://addpost.site)** | Social media scheduling with AI content generation for X and LinkedIn | FastAPI · Celery · Redis · OpenAI |
 | **[klipit](https://tryklipit.com)** | Klipit uses AI to find your most shareable moments — scored, hooked, and ready to post. What takes hours of editing takes five minutes. | FastAPI · Cloudfare · Redis · Claude . ffmpeg |

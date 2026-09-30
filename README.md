@@ -1,59 +1,46 @@
 # Otito Ogene
-**AI Engineer · Backend Developer · Product Builder**
+**Applied AI / Forward Deployed Engineer**
 
-I build AI systems that ship to production — voice agents, 
-multi-agent platforms, MCP servers, and full-stack SaaS 
-products. I work end-to-end: architecture, backend, 
-integrations, deployment, and iteration based on real usage.
+I turn messy business problems into AI systems that run in production. Clinical lab scientist turned engineer.
 
 ---
 
-## What I'm Building
+## Featured Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| **[SESKit](https://github.com/Otitodev/seskit)** | Python-native developer email platform on Amazon SES — self-hosted alternative to Resend | FastAPI · Python SDK · ARQ · PostgreSQL · AWS SES |
-| **[Whaply](https://whaply.site)** | Multi-tenant WhatsApp AI agent platform with multi-LLM routing, real-time webhook processing, and per-tenant agent configuration | FastAPI · LangGraph · PostgreSQL · Claude · Evolution API |
-| **[LabLens MCP](https://github.com/Otitodev/lablens)** | Production MCP server exposing four clinical AI tools to LLM agents — lab interpretation, critical value flagging, clinical summaries, differential diagnosis | FastAPI · MCP · Claude · OpenAI · Epic FHIR R4 |
-| **[ClaimGuard](https://claimguard-alpha.vercel.app)** | AI denial management SaaS for medical practices — LangGraph pipeline processing insurance EOBs and generating appeal letters | FastAPI · LangGraph · AWS Aurora · Next.js · Terraform |
-| **[Addpost](https://addpost.site)** | Social media scheduling with AI content generation for X and LinkedIn | FastAPI · Celery · Redis · OpenAI |
-| **[klipit](https://tryklipit.com)** | Klipit uses AI to find your most shareable moments — scored, hooked, and ready to post. What takes hours of editing takes five minutes. | FastAPI · Cloudfare · Redis · Claude . ffmpeg |
+| **[Voice AI Emergency Dispatch](https://otito.site/emergency-dispatch)** | Live for two plumbing companies. A voice agent classifies emergencies, schedules jobs, dispatches technicians, and hands off to a human when needed. | Vapi · Python · FastAPI · CRM Integration · Payment Processing |
+| **[Whaply](https://whaply.site)** | Multitenant WhatsApp AI platform. Each tenant gets a configurable AI agent with intent classification, routing, and human takeover detection. | FastAPI · LangGraph · Claude API · Supabase · Redis |
+| **[ClaimGuard](https://claimguard-alpha.vercel.app)** | AI denial management for medical practices. Forward a denial PDF and a LangGraph pipeline extracts the details, recommends an action, and drafts the appeal letter. | FastAPI · LangGraph · Claude API · Next.js · Terraform |
+| **[AI Content Engine](https://otito.site/blog/fencing-content-engine-zapier)** | Approval flow content system for a fencing contractor. Zapier agents draft a post every weekday, and the owner approves or rejects it by email before anything publishes. | Zapier · Zapier Agents · WordPress · Google Search Console · SEMrush |
+| **[SESKit](https://github.com/Otitodev/seskit)** | Open source, self hosted email platform on AWS SES. A send API, dashboard, delivery events, webhooks, and suppression list that run in your own AWS account as one Docker image. | Python · FastAPI · Amazon SES · PostgreSQL · Docker |
+| **[LabLens MCP](https://github.com/Otitodev/lablens)** | Hackathon build, live demo. An MCP server that gives Claude access to Epic's FHIR sandbox to interpret panels, flag critical values, and write a clinical summary. | MCP Server · Claude API · FastAPI · FHIR R4 · Epic Integration |
+
+More projects at [otito.site/projects](https://otito.site/projects).
 
 ---
 
 ## Core Stack
 
-**AI and Agents** · Claude API · OpenAI API · LangGraph · 
-LangChain · MCP · VAPI · ElevenLabs · Prompt Engineering · 
-RAG · Function Calling · Eval Writing
+**AI and agents** · Claude API · OpenAI API · LangGraph · MCP servers · Voice AI (Vapi)
 
-**Backend** · Python · FastAPI · Django · PostgreSQL · 
-Supabase · Redis · SQLAlchemy · asyncio
+**Backend** · Python · FastAPI · TypeScript · PostgreSQL · Redis
 
-**Frontend** · Next.js · React · TypeScript · Tailwind CSS
+**Infra** · AWS · Docker · Terraform · GitHub Actions · Railway
 
-**Infra** · AWS (EC2, Aurora, S3, Lambda, Bedrock) · Docker · 
-GitHub Actions · Railway · Terraform
-
-**Automation** · n8n · Zapier · Make.com · Evolution API
+**Integrations** · n8n · Zapier · Webhooks · Epic FHIR
 
 ---
 
 ## Track Record
 
 - Top Rated on Upwork · 100% Job Success Score
-- 5 production AI systems live and handling real workloads
-- Voice AI agents deployed for healthcare and home services 
-  clients — 94% autonomous handling, zero missed calls
-- Production MCP server with SHARP Extension Specs for 
-  multi-agent context propagation
-- Diagnosed and resolved production incidents: memory leaks, 
-  race conditions, query performance under live load
+- Voice AI emergency dispatch live for two plumbing companies
 
 ---
 
 ## Connect
 
 - **Site:** [otito.site](https://otito.site)
+- **LinkedIn:** [linkedin.com/in/otito-ogene-315122201](https://www.linkedin.com/in/otito-ogene-315122201)
 - **Email:** otitodrichukwu@gmail.com
-- **Upwork:** Top Rated · AI Engineering and Backend
